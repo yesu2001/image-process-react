@@ -3,11 +3,6 @@ import Login from './Login'
 import Dashboard from './Dashboard'
 
 const Home = () => {
-	const [openModal,setOpenModal] = useState(false);
-	const [newName,setNewName] = useState('');
-	const [newEmail,setNewEmail] = useState('');
-	const [newPhone,setNewPhone] = useState('');
-	const [newPassword,setNewPassword] = useState('');
 	const [isLogged,setIsLogged] = useState(true);
 	var username = localStorage.getItem('Name').replace(/"/g,"")
 
